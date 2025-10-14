@@ -44,3 +44,14 @@ for i in range(len(word)-1,-1,-1):
     i-=1
 
 '''
+
+#6- Vowel 
+vowel = 'aeiou'
+word = input("Enter your word: ")
+count = 0
+for char in word:
+    if char in vowel:
+        count+=1
+        print(char, end=" ")
+print("")    
+print(f"Your total charecter of vowel {count}")     
